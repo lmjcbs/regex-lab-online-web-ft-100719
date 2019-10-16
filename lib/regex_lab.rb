@@ -18,5 +18,4 @@ end
 
 def valid_phone_number?(phone)
   result = phone.scan(/\D?\d{3}\D?\d{3}\D?\d{4}\b/)
-  puts result
 end
