@@ -1,5 +1,4 @@
 def starts_with_a_vowel?(word)
-  result = nil
    word.scan(/\b[aeiou]/) ? true : false
 end
 
